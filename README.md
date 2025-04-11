@@ -10,6 +10,26 @@ Proyecto desarrollado como parte del parcial para implementar un sistema backend
 - Dotenv
 - Postman (para pruebas)
 
+## Como iniciar el proyecto
+# 1. Clonar el repositorio
+git clone https://github.com/tuUsuario/inventario-parcial.git
+
+# 2. Entrar al directorio del proyecto
+cd inventario-parcial
+
+# 3. Instalar dependencias
+npm install
+
+# 4. Crear archivo .env
+# Ejemplo:
+# MONGO_URI=mongodb+srv://usuario:clave@cluster.mongodb.net/inventario
+# JWT_SECRET=mi_clave_secreta
+# PORT=3000
+
+# 5. Iniciar el servidor
+npm start
+
+
 ## Autenticación
 
 ### Registro de usuario

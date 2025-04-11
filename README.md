@@ -22,9 +22,15 @@ npm install
 
 # 4. Crear archivo .env
 # Ejemplo:
-# MONGO_URI=mongodb+srv://usuario:clave@cluster.mongodb.net/inventario
-# JWT_SECRET=mi_clave_secreta
-# PORT=3000
+MONGO_URI=mongodb+srv://usuario:clave@cluster.mongodb.net/inventario
+JWT_SECRET=mi_clave_secreta
+PORT=3000
+
+      PORT=3001
+      MONGO_URI=mongodb://localhost:27017/ecommerce
+      JWT_SECRET=supersecreto
+
+
 
 # 5. Iniciar el servidor
 npm start
